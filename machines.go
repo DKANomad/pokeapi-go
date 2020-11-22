@@ -3,7 +3,7 @@ package pokeapi
 import (
 	"fmt"
 
-	"github.com/mtslzr/pokeapi-go/structs"
+	"github.com/dkanomad/pokeapi-go/structs"
 )
 
 // Machine returns a single machine (by ID).

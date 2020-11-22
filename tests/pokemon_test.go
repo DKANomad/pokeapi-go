@@ -3,8 +3,8 @@ package tests
 import (
 	"testing"
 
-	pokeapi "github.com/mtslzr/pokeapi-go"
-	"github.com/mtslzr/pokeapi-go/structs"
+	pokeapi "github.com/dkanomad/pokeapi-go"
+	"github.com/dkanomad/pokeapi-go/structs"
 	"github.com/stretchr/testify/assert"
 )
 
