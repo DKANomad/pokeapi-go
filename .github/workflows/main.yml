@@ -12,6 +12,4 @@ jobs:
 
       - name: Make All
         run: make
-
-      - name: Update Coverage
-        run: bash <(curl -s https://codecov.io/bash)
+        
