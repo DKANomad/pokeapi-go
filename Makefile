@@ -3,14 +3,12 @@ GOMOD=${GOCMD} mod
 GOTEST=${GOCMD} test
 PACKAGE=github.com/dkanomad/pokeapi-go
 
-CODECOVFLAGS=-coverprofile=coverage.txt -covermode=atomic -coverpkg=${PACKAGE}
-
 all: deps test
 
 deps: tidy vend
 
 test:
-	${GOTEST} -v -race ${CODECOVFLAGS} ./...
+	${GOTEST} -v ./...
 
 test-client:
 	${GOTEST} -v ./.
